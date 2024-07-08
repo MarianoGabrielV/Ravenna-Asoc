@@ -43,6 +43,14 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+$(document).ready(function() {
+    $('.image-popup').magnificPopup({
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+});
 
 
 
