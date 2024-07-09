@@ -13,6 +13,9 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 
+     <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 
 </head>
 <body>
@@ -125,7 +128,7 @@
 
 <section id="casos" class="container mt-5">
     <h2 class="text-center roboto-black">Casos</h2>
-    <p class="text-center"><strong>Haz clic en la imagen para ver la galería</strong></p>
+    <p class="text-center roboto-black-italic"><strong>Haz clic en la imagen para ver la galería</strong></p>
     <div id="casosCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -135,7 +138,9 @@
             </div>
         </div>
     </div>
-
+    <br>
+    <br>
+    <br>    
     <!-- Imágenes ocultas para la galería -->
     <div class="d-none">
         <a href="img/Screenshot (203).png" class="image-popup"></a>
@@ -162,13 +167,13 @@
 
 <!-- Integrantes -->
 <section id="integrantes" class="container-fluid">
-    <h2 class="text-center">Nuestro Equipo</h2>
+    <h2 class="text-center roboto-black">Nuestro Equipo</h2>
     <div class="row justify-content-center">
         <div class="col-md-4 mb-4">
             <div class="card team-card"> 
-                <img src="img/fotonahu.jpg" class="card-img-top" alt="Integrante 1">
+                <img src="img/fotonahu.jpg"  class="card-img-top " alt="Integrante 1">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Dr. Nahuel Ravenna</h5>
+                    <h5 class="card-title roboto-medium-italic">Dr. Nahuel Ravenna</h5>
                     <p class="card-text">Descripción del integrante 1.</p>
                 </div>
             </div>
@@ -178,49 +183,26 @@
             <div class="card team-card ">
                 <img src="img/fotomarcos.jpg" class="card-img-top" alt="Integrante 2">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Dr. Marcos Ravenna</h5>
+                    <h5 class="card-title roboto-medium-italic">Dr. Marcos Ravenna</h5>
                     <p class="card-text">Descripción del integrante 2.</p>
                 </div>
             </div>
         </div>
+       
+    </div>
+    <div class="social-icons text-center my-4">
+        <p class="text-center roboto-black-italic">Contactano por WhatsApp o Instagram</p>
+        <a href="https://wa.me/+5491126869728" target="_blank" class="mx-2"><i class="fab fa-whatsapp fa-2x"></i></a>
+        <a href="https://www.instagram.com/ravennaabogados/" target="_blank" class="mx-2"><i class="fab fa-instagram fa-2x"></i></a>
     </div>
 </section>
 
-<!-- Contacto -->
-
-<section id="contacto" class="container-fluid">
-    <div class="container mt-5">
-        <h2 class="text-center">Contacto</h2>
-        <form>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="mensaje">Mensaje</label>
-                <textarea class="form-control" id="mensaje" rows="3" placeholder="Mensaje"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-        <div id="mapa" class="mt-4" style="height: 400px;"></div>
-    </div>
-</section>
 <footer class="footer bg-dark text-white py-4">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center align-items-center">
             <div class="col-md-6 text-center text-md-left">
                 <p>&copy; 2024 Estudio Jurídico Ravenna & Asoc. Todos los derechos reservados.</p>
-            </div>
-            <div class="col-md-6 text-center text-md-right">
-                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+                
             </div>
         </div>
     </div>
@@ -228,9 +210,7 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY&callback=initMap" async defer></script>
 <script src="js/main.js"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 

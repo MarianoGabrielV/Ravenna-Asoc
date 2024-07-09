@@ -1,15 +1,3 @@
-function initMap() {
-    var location = { lat: -34.603684, lng: -58.381559 };
-    var map = new google.maps.Map(document.getElementById('mapa'), {
-        zoom: 14,
-        center: location
-    });
-    var marker = new google.maps.Marker({
-        position: location,
-        map: map
-    });
-}
-
 
 /* Recarga img de inicio */
 document.getElementById('inicio-link').addEventListener('click', function(event) {

@@ -117,7 +117,7 @@ h2 {
 }
 
 
-
+/*FUENTES*/
 
 .roboto-thin {
     font-family: "Roboto", sans-serif;
@@ -270,8 +270,7 @@ p {
   width: 75%; /* Ajusta el tamaño al 75% del contenedor */
   margin: 0 auto; /* Centra la imagen horizontalmente */
 }
-/*.text-center {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 1.2em;
-}*/
+
+
+
+
