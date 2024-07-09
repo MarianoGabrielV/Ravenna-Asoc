@@ -41,6 +41,24 @@ $(document).ready(function() {
 });
 
 
+/*desplazamiento*/
+$(document).ready(function(){
+    // Agregar desplazamiento suave a todos los enlaces dentro de la barra de navegación
+    $("a.nav-link").on('click', function(event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+
+            var hash = this.hash;
+
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+                window.location.hash = hash;
+            });
+        }
+    });
+});
+
 
 
 
